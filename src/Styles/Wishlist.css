@@ -1,0 +1,48 @@
+#wishlist {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+#wishlist>div {
+    height: 400px;
+    padding: 2%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(107, 99, 99, 0.3) 0px 30px 60px -30px;
+    border-radius: 15px;
+}
+
+#wishlist>div>img {
+    width: 200px;
+}
+
+#wishlist>div>p {
+    font-size: 20px;
+}
+
+#wishlist>div>p:nth-child(3) {
+    font-size: 15px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#wishlist>div>button {
+    width: 150px;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#wishlist>div>button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: rgb(151, 141, 141);
+}
